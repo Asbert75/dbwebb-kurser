@@ -1,0 +1,10 @@
+Dear diary.
+
+Today is {0}, the time is {1}. Today I am feeling {2}, why? Well
+because it's raining outside. This is the {3}th time this month that it's
+raining.
+
+Diary, did you know that there is exactly {4} Daleks left in
+this world? I know, it may seem like an odd number, but it's true!
+
+Well, that's all I have for today, Diary. See you next time.

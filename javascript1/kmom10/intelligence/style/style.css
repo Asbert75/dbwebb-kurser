@@ -1,0 +1,285 @@
+h1 {
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-family: Arial;
+}
+
+
+#content {
+	border: 1px solid black;
+	background-color: #eee;
+	padding: 2em;
+	margin: 0 auto;
+	height: 500px;
+	width: 900px;
+}
+
+html, body {
+	background: #191919;
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#infoContent {
+	margin: 0 auto;
+	margin-top: 7em;
+	width: 600px;
+	height: 450px;
+}
+
+#startButton, #nextButton {
+	margin: 0 auto;
+	margin-top: 3em;
+	transition: 0.2s all linear;
+	background: black;
+	color: white;
+	width: 125px;
+	height: 40px;
+	border-radius: 5px;
+}
+
+#startButton p, #nextButton p {
+	text-align: center;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-family: Verdana;
+	padding-top: 0.76em;
+}
+
+#startButton:hover, #nextButton:hover {
+	transition: 0.2s all linear;
+	background: gray;
+	cursor: pointer;
+}
+
+.hidden {
+	display: none;
+}
+
+#question {
+	text-align: center;
+	font-size: 1.5em;
+	font-weight: 600;
+}
+
+#questionsContainer {
+	margin-top: 5em;
+}
+
+.answerOne, .answerX, .answerTwo {
+	margin: 0 auto;
+	width: 200px;
+	height: 30px;
+	background: black;
+}
+
+.answerOne p, .answerX p, .answerTwo p {
+	padding-top: 0.3em;
+	padding-left: 0.5em;
+	color: white;
+}
+
+.answerOne:hover, .answerX:hover, .answerTwo:hover {
+	background: gray;
+	cursor: pointer;
+}
+
+.correct {
+	background: green !IMPORTANT;
+}
+
+.incorrect {
+	background: red !IMPORTANT;
+}
+
+#nextQuestion {
+	margin: 0 auto;
+	text-align: center;
+	width: 100px;
+	height: 20px;
+	background: black;
+	color: white;
+}
+
+#nextQuestion:hover {
+	cursor: pointer;
+}
+
+#results {
+	text-align: center;
+	font-size: 1.3em;
+	margin-top: 4em;
+}
+
+#resultsPage h2 {
+	text-align: center;
+}
+
+#resultsPage {
+	margin-top: 10em;
+}
+
+#fizzResultsPage {
+	margin-top: 3em;
+}
+
+ #perceptionResultsPage {
+	margin-top: 5em;
+ }
+
+.testButton {
+	margin: 0 auto;
+	margin-top: 3em;
+	transition: 0.2s all linear;
+	background: black;
+	color: white;
+	width: 125px;
+	height: 30px;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	font-family: Verdana;
+	padding-top: 0.76em;
+}
+
+.testButton:hover {
+	transition: 0.2s all linear;
+	background: gray;
+	cursor: pointer;
+}
+
+.disabled {
+	pointer-events: none;
+}
+
+#fizzContainer, #perceptionContainer {
+	width: 500px;
+	padding-top: 7em;
+	margin: 0 auto;
+}
+
+#series {
+	position: absolute;
+	left: 30em;
+	top: 11em;
+	font-size: 1.5em;
+}
+
+#answers div {
+	color: white;
+	margin: 0 auto;
+	width: 200px;
+	height: 30px;
+	background: black;
+}
+
+#answers div p {
+	padding-top: 0.3em;
+	padding-left: 0.5em;
+	color: white;
+}
+
+#answers div:hover {
+	background: gray;
+	cursor: pointer;
+}
+
+#answerText {
+	margin-left: 5em;
+	width: 300px;
+	height: 30px;
+	font-size: 1.2em;
+	margin-bottom: 2em;
+}
+
+#answerButtons {
+	position: absolute;
+	left: 57em;
+}
+
+#serieBg {
+	border: 1px solid black;
+	width: 130px;
+	padding-left: 40px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#perceptionExtra {
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#perceptionContainer {
+	padding-top: 4em;
+}
+
+#object {
+	width: 100px;
+	height: 100px;
+	bordre: 1px solid black;
+	margin: 0 auto;
+	margin-top: 2em;
+}
+
+.circle {
+	border-radius: 100%;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.objects {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#perceptionTest {
+	width: 200px;
+	height: 200px;
+	margin: 0 auto;
+	margin-top: 2em;
+}
+
+#finalResult {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+
+	text-align: center;
+	padding-top: 10em;
+}
+
+#finalResult h2 {
+	font-size: 1.6em;
+}
+
+#finalResult p {
+	font-size: 1.3em;
+}
+
+#content {
+	margin-top: 4em;
+}
+
+h1 {
+	margin-top: 3em;
+}

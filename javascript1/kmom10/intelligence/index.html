@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>
+    <title>An Intelligence Test</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <h1>The Intelligence Test</h1>
+
+    <div id="content">
+        <article id="startPage">
+            <div id="infoContent">
+                <h2 id="header">Välkommen</h2>
+                <hr>
+                <p id="information">
+                    Välkommen till detta intelligenstest. Du kommer i detta test att få utföra en serie deltest. Varje test är riktat för ett specifikt område så som minne, allmänbildning och reaktionsförmåga.
+                    I slutet av testet kommer resultaten på deltesten att läggas ihop och ett mått på din intelligens kommer att visas.
+                    <br><br>
+                    Före varje deltest kommer du presenteras med en instruktionstext som berättar hur du utför de kommande testet. Läs noga igenom texten innan du startar testet, visa utav testen är tidsbegränsade.
+                    <br><br>
+                    Du kan inte avbryta ett pågående test eller backa till föregående test.
+                </p>
+
+                <div id="startButton"><p>Starta Test</p></div>
+            </div>
+        </article>
+
+        <article id="questions" class="hidden">
+            <div id="questionsContainer">
+                <p id="question"></p>
+                <div id="one" class="answerOne"><p>1: <span id="answerOne"></span></p></div>
+                <div id="x" class="answerX"><p>X: <span id="answerX"></span></p></div>
+                <div id="two" class="answerTwo"><p>2: <span id="answerTwo"></span></p></div>
+
+                <div id="results" class="hidden"><p id="result"></p></div>
+                <div id="nextQuestion" class="hidden"><p>Nästa Fråga</p></div>
+            </div>
+
+            <div id="resultsPage" class="hidden">
+                <h2>Grattis. Du är nu klar med det första deltestet.</h2>
+                <h2>Din totala poäng är: <span id="testScore"></span> av 9</h2>
+                <div id="endTest1" class="testButton">Nästa Test</div>
+            </div>
+        </article>
+
+
+        <article id="fizzBuzz" class="hidden">
+            <div id="fizzContainer">
+                <div id="fizzInfo">
+                    <h2 id="fizzHeader">Fizz Buzz</h2>
+                    <hr>
+                    <p id="fizzInformation">Detta deltest är baserat på spelet Fizz Buzz. Du kommer att presenteras med en serie av antingen ett nummer, fizz, buzz eller fizz buzz. Din uppgift går ut på att gissa nästa element i serien. <br>Klicka på ett utav alternativen för att svara. </p>
+
+                    <div id="fizzStartButton" class="testButton">Starta Test</div>
+                </div>
+
+                <div id="fizzTest" class="hidden">
+                    <div id="series">
+                        <h3>Serie:</h3>
+                        <div id="serieBg"><p>Fizz<br> Buzz<br> 11<br> Fizz<br> 13<br> 14<br> FizzBuzz<br> 16<br> 17<br> Fizz<br> ???</p></div>
+                    </div>
+                    <div id="answerButtons">
+                        <div id="answerText"><p>Fullständiggör serien. Svara med hjälp av knapparna nedan.</p></div>
+                        <div id="answers">
+                            <div id="fizzButtonOne"><p>Fizz</p></div>
+                            <div id="fizzButtonTwo"><p>19</p></div>
+                            <div id="fizzButtonThree"><p>FizzBuzz</p></div>
+                            <div id="fizzButtonFour"><p>24</p></div>
+                            <div id="fizzButtonFive"><p>Buzz</p></div>
+                        </div>
+                        <div id="fizzResultButton" class="hidden testButton">Visa Resultat</div>
+                    </div>
+                </div>
+
+                <div id="fizzResultsPage" class="hidden">
+                    <h2>Grattis. Du är nu klar med det andra deltestet.</h2>
+                    <h2>Din poäng är: <span id="fizzTestScore"></span> poäng</h2>
+                    <div id="endTest2" class="testButton">Nästa Test</div>
+                </div>
+            </div>
+        </article>
+
+
+        <article id="perception" class="hidden">
+            <div id="perceptionContainer">
+                <div id="perceptionInfo">
+                    <h2 id="perceptionHeader">Uppfattningsförmåga</h2>
+                    <hr>
+                    <p id="perceptionInformation">Detta deltest kommer att utmana din uppfattningsförmåga. I detta test kommer 10 objekt visas upp en och en under 1 sekund.<br>
+                    Uppgiften går ut på att du under denna sekund som objektet visas ska ta ett beslut. Du skall klicka på objektet om något utav detta stämmer in, och ENDAST om någon stämmer in:<br>
+                    <br>1. Objektet har en annan färg än röd.
+                    <br>2. Objektet har en annan form än kvadrat.
+                    <br>3. Objektet är en röd kvadrat.
+
+                    Efter att alla objekt har visats kommer du att få reda på din poäng.
+                    </p>
+
+                    <div id="perceptionStartButton" class="testButton">Starta Test</div>
+
+                    <p id="perceptionExtra">(att klicka på knappen innebär att första objektet kommer visas)</p>
+                </div>
+
+                <div id="perceptionTest" class="hidden">
+                    <div class="objects">Objekt <span id="objectCount">1</span> av 10</div>
+                    <div id="object"></div>
+                </div>
+
+                <div id="perceptionResultsPage" class="hidden">
+                    <h2>Grattis. Du är nu klar med det tredje deltestet.</h2>
+                    <h2>Din poäng är: <span id="perceptionTestScore"></span> av 5 poäng</h2>
+                    <div id="endTest3" class="testButton">Avsluta Test</div>
+                </div>
+            </div>
+        </article>
+
+        <article id="finalResult" class="hidden">
+            <div id="container">
+                <h2 id="resultsHeader">Grattis! Du har klarat alla deltest.</h2>
+                <p>Utifrån dina testsvar har din IQ har beräknats till <span id="finalScore"></span> av 100.</p>
+            </div>
+        </article>
+
+    </div>
+
+    <script type="text/javascript" src="js/test1.js"></script>
+    <script type="text/javascript" src="js/test2.js"></script>
+    <script type="text/javascript" src="js/test3.js"></script>
+    <script type="text/javascript" src="js/Test.js"></script>
+</body>
+</html>

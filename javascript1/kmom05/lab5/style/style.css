@@ -1,0 +1,179 @@
+h1 {
+	text-align: center;
+}
+
+h3 {
+	color: green;
+}
+
+#content {
+	border: 1px solid black;
+	background-color: #eee;
+	padding: 2em;
+	margin: 0 auto;
+	height: 500px;
+	width: 800px;
+	border-radius: 30px;
+}
+
+html, body {
+    position: relative;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.box {
+    position: absolute;
+}
+
+.center {
+    top: 30%;
+    left: 47%;
+}
+
+.green {
+	background-color: green;
+}
+
+.red {
+	background-color: red;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.purple {
+	background-color: purple;
+}
+
+.size200 {
+    height: 200px;
+    width: 200px;
+}
+
+.selected {
+	outline: black dotted thick;
+}
+
+.circle {
+	border-radius: 50%;
+}
+
+.animateSize {
+	transition: width 1s, height 1s;
+}
+
+.imageContainer {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -250px;
+	margin-top: -250px;
+	height: 0px;
+	width: 0px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.opacityIn {
+	transition: opacity 1s;
+}
+
+.image0 {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.image1 {
+	position: absolute;
+	top: 10px;
+	left: 132.5px;
+
+}
+
+.image2 {
+	position: absolute;
+	top: 10px;
+	left: 255px;
+}
+
+.image3 {
+	position: absolute;
+	top: 10px;
+	left: 377.5px;
+}
+
+.image4 {
+	position: absolute;
+	top: 132.5px;
+	left: 10px;
+}
+
+.image5 {
+	position: absolute;
+	top: 132.5px;
+	left: 132.5px;
+}
+
+.image6 {
+	position: absolute;
+	top: 132.5px;
+	left: 255px;
+}
+
+.image7 {
+	position: absolute;
+	top: 132.5px;
+	left: 377.5px;
+}
+
+.image8 {
+	position: absolute;
+	top: 255px;
+	left: 10px;
+}
+
+.image9 {
+	position: absolute;
+	top: 255px;
+	left: 132.5px;
+}
+
+.image10 {
+	position: absolute;
+	top: 255px;
+	left: 255px;
+}
+
+.image11 {
+	position: absolute;
+	top: 255px;
+	left: 377.5px;
+}
+
+.image12 {
+	position: absolute;
+	top: 377.5px;
+	left: 10px;
+}
+
+.image13 {
+	position: absolute;
+	top: 377.5px;
+	left: 132.5px;
+}
+
+.image14 {
+	position: absolute;
+	top: 377.5px;
+	left: 255px;
+}
+
+.image15 {
+	position: absolute;
+	top: 377.5px;
+	left: 377.5px;
+}

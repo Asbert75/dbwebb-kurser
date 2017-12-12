@@ -1,0 +1,34 @@
+{
+    "details":  "Generated for eroa16 at 2017-02-12 14:30:49.",
+    "key":      "7f7519f35f2dcf355f7933334ceec4e3",
+    "answers":  {
+        "1.1":		46,
+        "1.2":		6,
+        "1.3":		"The meaning of life is 42",
+        "1.4":		true,
+        "1.5":		false,
+        "2.1":		[
+    6,
+    12,
+    19
+],
+        "2.2":		[
+    6,
+    12,
+    19,
+    33
+],
+        "3.1":		[
+    "Pete Conrad was on the apollo 12",
+    "Richard F. Gordon Jr. was on the apollo 12",
+    "Alan Bean was on the apollo 12"
+],
+        "3.2":		[
+    "Pete Conrad was not on the apollo 11",
+    "Richard F. Gordon Jr. was not on the apollo 11",
+    "Alan Bean was not on the apollo 11"
+],
+        "3.3":		697,
+        "3.4":		568
+    }
+}

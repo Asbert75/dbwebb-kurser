@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+	font-family: Arial;
+}
+
+h1 {
+	text-align: center;
+}
+
+h3 {
+	color: green;
+}
+
+body {
+	background: black;
+}
+
+#charContainer {
+	margin-top: 3em;
+	width: 400px;
+	height: 300px;
+	margin-left: 0;
+}
+
+#right {
+	position: absolute;
+	right: 35em;
+	top: 5em;
+}
+
+#left {
+	position: absolute;
+	top: 5em;
+	left: 30em;
+	width: 500px;
+	height: 450px;
+}
+
+input {
+	font-size: 1.5em;
+	width: 2em;
+	height: 2em;
+	border-radius: 100%;
+	border: none;
+	background-color: red;
+	margin: 2px;
+
+	color: white;
+	text-transform: uppercase;
+	outline: none;
+}
+
+#wordContainer {
+	color: white;
+	font-size: 2.5em;
+	margin-left: 0.75em;
+	display: inline;
+}
+
+#wrongLetters {
+	color: white;
+	font-size: 1.5em;
+	font-family: Arial;
+	margin-left: 1em;
+	display: inline;
+}
+
+.active {
+	cursor: pointer;
+}
+
+.inactive {
+	pointer-events: none;
+	background: gray;
+	color: black;
+}
+
+#winContainer {
+	transition: all 0.5s linear;
+	height: 100px;
+	width: 400px;
+	background: 0;
+	color: white;
+	margin-top: 2em;
+	font-size: 1em;
+}
+
+#winMessage {
+	text-align: center;
+	padding-top: 35px;
+}
+
+#newGame {
+	color: gray;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-left: 3em;
+}

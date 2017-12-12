@@ -1,0 +1,29 @@
+$ cd /etc/apache2/sites-available
+$ sudo cp linux.dbwebb.se.conf me.linux.se.conf
+$ sudo nano me.linux.se.conf
+
+�ndrar sedan allt i filen s� att det st�mmer in p� infon jag vill ha.
+Valde att k�ra den fr�n samma st�lle som linux.dbwebb.se
+
+$ mkdir $HOME/vhosts/linux.dbwebb.se
+$ mkdir $HOME/vhosts/linux.dbwebb.se/htdocs
+
+L�gger sedan in siten och reloadar apache
+$ sudo a2ensite linux.dbwebb.se
+$ service apache2 reload
+
+G�r in i min hosts fil i windows och l�gger till adressen s� att jag kan g� in p� sidan och g�r detsamma p� virtualboxen.
+$ sudo nano /etc/hosts
+
+
+Sedan �r det dags att flytta �ver me-sidan, jag st�r i dbwebb-kurser/linux/ och anv�nder mig d� av
+$ rsync -av -e "ssh -p 2222" me/redovisa/ erik@localhost:/home/erik/vhosts/me.linux.se/htdocs/
+
+Nu fick jag problem med filerna, apache kunde n�mligen inte l�sa filerna och jag var d�rf�r tvungen att �ndra
+filr�ttigheterna, detta gjorde jag med kommandot
+$ chmod +r index.html
+$ chmod +r redovisa.html
+$ chmod +r style.css
+
+Sedan �ppnade jag hemsidan med hj�lp av lynx
+$ lynx me.linux.se

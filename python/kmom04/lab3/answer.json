@@ -1,0 +1,114 @@
+{
+    "details":  "Generated for eroa16 at 2016-09-20 18:37:40.",
+    "key":      "11b0a51372f3a4069901684ccadf5d7c",
+    "answers":  {
+        "1.1":		[
+    "drums",
+    "bumblebee",
+    "piano",
+    "wall"
+],
+        "1.2":		[
+    "wasp",
+    "icecream",
+    "donkey",
+    "fly",
+    "butterfly",
+    "bumblebee",
+    "mosquito"
+],
+        "1.3":		[
+    "wasp",
+    "fly",
+    "tablet",
+    "bumblebee",
+    "mosquito"
+],
+        "1.4":		[
+    "Berenger",
+    "Dafoe",
+    "Depp",
+    "Sheen",
+    "Whitaker"
+],
+        "1.5":		[
+    "Whitaker",
+    "Sheen",
+    "Depp",
+    "Dafoe",
+    "Berenger"
+],
+        "1.6":		[
+    "fly",
+    "mosquito"
+],
+        "1.7":		[
+    "lion",
+    "tiger",
+    "ozelot",
+    "cougar"
+],
+        "2.1":		476,
+        "2.2":		95.2,
+        "2.3":		2,
+        "2.4":		"The grass is growing",
+        "2.5":		"minute",
+        "2.6":		[
+    "a",
+    "green",
+    "purple",
+    "d",
+    "e"
+],
+        "2.7":		[
+    "a",
+    "b",
+    "c",
+    "green",
+    "purple"
+],
+        "2.8":		[
+    "a",
+    "b",
+    "c",
+    "green",
+    "purple",
+    "d",
+    "e"
+],
+        "2.9":		[
+    "mp3",
+    "blu-ray",
+    "vhs",
+    "cd"
+],
+        "2.10":		[
+    "dvd",
+    "vhs",
+    "cd"
+],
+        "2.11":		false,
+        "2.12":		true,
+        "2.13":		[
+    "x",
+    "c",
+    "b",
+    "a",
+    "e"
+],
+        "3.1":		[
+    20,
+    150,
+    390,
+    500,
+    670
+],
+        "3.2":		[
+    163,
+    133,
+    131,
+    77,
+    12
+]
+    }
+}
